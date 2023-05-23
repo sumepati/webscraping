@@ -35,8 +35,8 @@ def update_sheet(title,df):
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
     try:
-        # Spreadsheet created in your Google account, and used ID that is unique
-        spreadsheetId = '1rpQc5IprKKeh4t6M-CjVJi3eAAgVMY7qtRy6RZyNTUs'
+        # Spreadsheet created in your Google account, and used ID that is  unique
+        spreadsheetId = 'sheetID'
         SAMPLE_RANGE_NAME = 'A1:D10000'
         df_google = pd.DataFrame()
         df_google =df
